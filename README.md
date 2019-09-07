@@ -1,4 +1,4 @@
-# # supplemental material to the manuscript:
+## supplemental material to the manuscript:
 
 ## Classification of surficial geological substrates as basis for soil formation
 
@@ -17,6 +17,7 @@ A-6020 Innsbruck
 *corresponding author   
 email: simonalois@web.de  
 postal address: Bürgerstraße 36, 6020 Innsbruck, Austria  
+
 
 
 Keywords:  
