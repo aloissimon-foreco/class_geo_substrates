@@ -10,7 +10,7 @@ Clemens GEITNER<sup>5</sup>, Klaus KATZENSTEINER<sup>1</sup>
 Vienna, Austria  
 2 Department of Forest Planning, Forest Administration Tyrol, Office of the Tyrolean government, Innsbruck, Austria  
 3 alpECON Wilhelmy Geology, engineering office for earth sciences, Franz-de-Paula-Penz-Weg 28, A-6165 Telfes im Stubaital  
-4 WLM, engineering office for vegetation ecology and environmental planning, Klosterhuber & Partner, Innstraße 23/3/11, 
+4 WLM, office for vegetation ecology and environmental planning, Klosterhuber & Partner, Innstraße 23/3/11, 
 A-6020 Innsbruck  
 5 Institute of Geography, University of Innsbruck, Austria
 
