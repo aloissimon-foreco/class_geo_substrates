@@ -25,9 +25,9 @@ classification system, lithogenetic entities, mineralogical content, parent mate
 
 Highlights:
 -	a comprehensive chemical-physical classification system is presented
--	interface between surficial geology and soil properties
--	parent material strongly determines soil chemistry and texture 
--	supply of finer grain size facilitates soil formation  
+-	the interface between surficial geology and soil properties is described
+-	characterisation of soil chemical properties and texture by parent material 
+-	supply of finer grain sizes facilitates soil formation  
 
 <br>
 <br>
