@@ -1,6 +1,6 @@
 ## supplemental material to the manuscript:
 
-## Classification of surficial geological substrates as basis for soil formation
+## A system for classifying subsolum geological substrates as a basis for describing soil formation
 
 authors:   
 Alois SIMON<sup>1,2*</sup>, Marcus WILHELMY<sup>3</sup>, Ralf KLOSTERHUBER<sup>4</sup>, Elena COCUZZA<sup>2</sup>, 
@@ -25,9 +25,9 @@ classification system, lithogenetic entities, mineralogical content, parent mate
 
 Highlights:
 -	a comprehensive chemical-physical classification system is presented
--	the interface between surficial geology and soil properties is described
--	characterisation of soil chemical properties and texture by parent material 
--	supply of finer grain sizes facilitates soil formation  
+-	an interface between surficial geology and soil properties is described
+-	characterisation of soil chemical properties and texture by the parent material 
+-	quarternary sediments of finer grain size facilitates soil formation  
 
 <br>
 <br>
