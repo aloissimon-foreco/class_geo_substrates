@@ -1,5 +1,7 @@
 library("soiltexture")
-setwd("T:/WP_T3_Case_studies_Biomass/substrat_deck")
+setwd("J:/Waldtypisierung/waldtypenbeschreibung/substrat_deck")
+#creation of structure and files .rda of triangles 1, 2 and 3. 
+#Not necessary to run again, only if you want to change the triangle's structure.
 ###################################dreieck 2####################################
 
 TT.set(reset=TRUE)
@@ -29,7 +31,7 @@ tat <- structure(list("Substratgesellschaftsdreieck 2",structure(list(c(1.00, 0.
                  .Names = c("main", "tt.points", "tt.polygons","blr.tx","blr.clock","tlr.an","base.css.ps.lim", "tri.css.ps.lim", "unit.ps", 
                             "unit.tx", "text.sum"))
 
-save(tat, file="T:/WP_T3_Case_studies_Biomass/substrat_deck/dreieck2.rda")
+save(tat, file="J:/Waldtypisierung/waldtypenbeschreibung/substrat_deck/dreieck2.rda")
 
 
 ################dreieck3###############################################################
@@ -41,9 +43,9 @@ tap <- structure(list("Substratgesellschaftsdreieck 3",structure(list(c(1.00, 0.
                       structure(list(structure(list("Silikatisch-quarzreich/rückstandsarm", c(1,3,4,2)), .Names = c("name", "points")),
                                      structure(list("Silikatisch-quarzreich", c(2,4,5)), .Names = c("name", "points")),
                                      structure(list("Silikatisch-intermediär (rückstandsarm)", c(3,6,7,5,4)), .Names = c("name", "points")),
-                                     structure(list("Silikatisch-intermediär", c(5,7,9,10,11,8,5)), .Names = c("name", "points")),
+                                     structure(list("Silikatisch-intermediär", c(5,7,11,8,5)), .Names = c("name", "points")),
                                      structure(list("Silikatisch-basenreich (rückstandsarm)", c(6,9,7)), .Names = c("name", "points")),
-                                     structure(list("Silikatisch-basenreich",c(9,12,14,15,11,10,9)), .Names = c("name", "points")),
+                                     structure(list("Silikatisch-basenreich",c(9,12,14,15,11,7,9)), .Names = c("name", "points")),
                                      structure(list("Silikatisch-basenreich (rückstandsreich)", c(11,15,16)), .Names = c("name", "points")),
                                      structure(list("Silikatisch-intermediär (rückstandsreich)", c(8,11,16,17,8)), .Names = c("name", "points")),
                                      structure(list("U", c(12,13,14)), .Names = c("name", "points"))),
@@ -59,7 +61,7 @@ tap <- structure(list("Substratgesellschaftsdreieck 3",structure(list(c(1.00, 0.
                             
 
 
-save(tap, file="T:/WP_T3_Case_studies_Biomass/substrat_deck/dreieck3.rda")
+save(tap, file="J:/Waldtypisierung/waldtypenbeschreibung/substrat_deck/dreieck3.rda")
 ################dreieck1#############################################################
 
 library("soiltexture")
@@ -96,7 +98,7 @@ tas <- structure(list("Substratgesellschaftsdreieck 1",structure(list(c(1.00, 0.
 
 
 
-save(tas, file="T:/WP_T3_Case_studies_Biomass/substrat_deck/dreieck1.rda")
+save(tas, file="J:/Waldtypisierung/waldtypenbeschreibung/substrat_deck/dreieck1.rda")
 
 
 

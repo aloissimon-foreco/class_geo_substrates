@@ -1,5 +1,11 @@
 
 ##change "load" directory of .rda files
+#creates the function TT.subst, based on the chemical-physical entity, average combinations of percentages of dolomite, 
+#calcite, felsic, mafic and clay minerals are assigned, for both the underlying solid bedrock (R_subst) and the overburdens (R_SubstD). 
+#For the resulting mixed values, the overburden thickness is taken into account. Given the bedrock and 
+#overburden chemical entities and the overburden thickness (1- 5)(DeckM) as input, the function calculates the resulting 
+#chemical-physical entity and it shows it in the triangle. 
+
 TT.subst <- function(R_Subst,R_SubstD,DeckM){
   
   library("soiltexture")
@@ -10,8 +16,8 @@ TT.subst <- function(R_Subst,R_SubstD,DeckM){
     Kalk<- 4
     Karbonat <- 8
     CM <- 12.5
-    MM <- 57   # + 8 (Karbonat)when triangle 2a is used
-    FM <- 22.5
+    MM <- 52   # + 8 (Karbonat)when triangle 2a is used
+    FM <- 27.5
   } else if (R_Subst == "B-"){
     Dolomit <- 1.25 
     Kalk <- 1.25
@@ -163,8 +169,8 @@ TT.subst <- function(R_Subst,R_SubstD,DeckM){
     Kalk_D <- 4
     Karbonat_D <- 8
     CM_D <- 12.5
-    MM_D <- 57   
-    FM_D <- 22.5
+    MM_D <- 52   
+    FM_D <- 27.5
   } else if (R_SubstD == "B-"){
     Dolomit_D <- 1.25 
     Kalk_D <- 1.25 
@@ -391,7 +397,7 @@ TT.subst <- function(R_Subst,R_SubstD,DeckM){
   
 #############################################################################
   if(R_Karbonat_Mix<=10){
-    load(file="T:/WP_T3_Case_studies_Biomass/substrat_deck/dreieck3.rda")
+    load(file="J:/Waldtypisierung/waldtypenbeschreibung/substrat_deck/dreieck3.rda")
     
     TT.set(reset=TRUE)
     TT.add("tap.TT"= tap)
@@ -556,7 +562,7 @@ TT.subst <- function(R_Subst,R_SubstD,DeckM){
       "Karbonat" = Karbonat,
       "CM_MM" = CM_MM,
       "FM" = FM)
-    load(file="T:/WP_T3_Case_studies_Biomass/substrat_deck/dreieck2.rda")
+    load(file="J:/Waldtypisierung/waldtypenbeschreibung/substrat_deck/dreieck2.rda")
     TT.set(reset=TRUE)
     TT.add("tat.TT"= tat)
     TT.plot( class.sys = "tat.TT",
@@ -580,7 +586,7 @@ TT.subst <- function(R_Subst,R_SubstD,DeckM){
       
     }
   }else if(R_Karbonat_Mix>10 & R_Karbonat_Mix<75){
-    load(file="T:/WP_T3_Case_studies_Biomass/substrat_deck/dreieck2.rda")
+    load(file="J:/Waldtypisierung/waldtypenbeschreibung/substrat_deck/dreieck2.rda")
     TT.set(reset=TRUE)
     TT.add("tat.TT"= tat)
     CM_MM_Mix = R_MM_Mix + R_CM_Mix
@@ -661,7 +667,7 @@ TT.subst <- function(R_Subst,R_SubstD,DeckM){
             pch = c(17,19,15), col=c("black"), bg="white")
     
   }else if(R_Karbonat_Mix>=75){
-    load(file="T:/WP_T3_Case_studies_Biomass/substrat_deck/dreieck1.rda")
+    load(file="J:/Waldtypisierung/waldtypenbeschreibung/substrat_deck/dreieck1.rda")
     TT.set(reset=TRUE)
     TT.add("tas.TT"= tas)
     CM_Si_Mix = R_CM_Mix + R_MM_Mix + R_FM_Mix
